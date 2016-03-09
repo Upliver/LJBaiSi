@@ -1,0 +1,23 @@
+//
+//  PrefixHeader.pch
+//  百思静
+//
+//  Created by 李学林 on 16/3/10.
+//  Copyright © 2016年 Upriver. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "UIView+LJExtension.h"
+#import "UIBarButtonItem+LJExtension.h"
+
+#if  DEBUG
+#define LJLog(...) NSLog(__VA_ARGS__)
+#else
+#define LJLog(...)
+#endif
+
+#define LJLogFunc  LJLog(@"%s",__func__)
+
+#endif /* PrefixHeader_pch */

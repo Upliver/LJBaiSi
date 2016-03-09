@@ -19,6 +19,7 @@
 		A882C4AA1C9080D800CB1439 /* LJMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A882C4A91C9080D800CB1439 /* LJMeViewController.m */; };
 		A882C4AD1C9088AA00CB1439 /* LJTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A882C4AC1C9088AA00CB1439 /* LJTabBar.m */; };
 		A882C4B01C908A4800CB1439 /* UIView+LJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A882C4AF1C908A4800CB1439 /* UIView+LJExtension.m */; };
+		A882C4B41C908FCF00CB1439 /* UIBarButtonItem+LJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A882C4B31C908FCF00CB1439 /* UIBarButtonItem+LJExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,9 @@
 		A882C4AC1C9088AA00CB1439 /* LJTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJTabBar.m; sourceTree = "<group>"; };
 		A882C4AE1C908A4800CB1439 /* UIView+LJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LJExtension.h"; sourceTree = "<group>"; };
 		A882C4AF1C908A4800CB1439 /* UIView+LJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LJExtension.m"; sourceTree = "<group>"; };
+		A882C4B11C908C5400CB1439 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A882C4B21C908FCF00CB1439 /* UIBarButtonItem+LJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+LJExtension.h"; sourceTree = "<group>"; };
+		A882C4B31C908FCF00CB1439 /* UIBarButtonItem+LJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+LJExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +123,8 @@
 				A882C46D1C907A1A00CB1439 /* AppDelegate.m */,
 				A882C49C1C907BD400CB1439 /* LJTabBarViewController.h */,
 				A882C49D1C907BD400CB1439 /* LJTabBarViewController.m */,
+				A882C4AB1C9088AA00CB1439 /* LJTabBar.h */,
+				A882C4AC1C9088AA00CB1439 /* LJTabBar.m */,
 				A882C49F1C90804500CB1439 /* LJEssenceViewController.h */,
 				A882C4A01C90804500CB1439 /* LJEssenceViewController.m */,
 				A882C4A21C90805200CB1439 /* LJNewViewController.h */,
@@ -127,10 +133,11 @@
 				A882C4A61C90809700CB1439 /* LJFriendTrendsViewController.m */,
 				A882C4A81C9080D800CB1439 /* LJMeViewController.h */,
 				A882C4A91C9080D800CB1439 /* LJMeViewController.m */,
-				A882C4AB1C9088AA00CB1439 /* LJTabBar.h */,
-				A882C4AC1C9088AA00CB1439 /* LJTabBar.m */,
 				A882C4AE1C908A4800CB1439 /* UIView+LJExtension.h */,
 				A882C4AF1C908A4800CB1439 /* UIView+LJExtension.m */,
+				A882C4B21C908FCF00CB1439 /* UIBarButtonItem+LJExtension.h */,
+				A882C4B31C908FCF00CB1439 /* UIBarButtonItem+LJExtension.m */,
+				A882C4B11C908C5400CB1439 /* PrefixHeader.pch */,
 				A882C4691C907A1A00CB1439 /* Supporting Files */,
 			);
 			path = "百思静";
@@ -300,6 +307,7 @@
 				A882C46E1C907A1A00CB1439 /* AppDelegate.m in Sources */,
 				A882C4A41C90805200CB1439 /* LJNewViewController.m in Sources */,
 				A882C4B01C908A4800CB1439 /* UIView+LJExtension.m in Sources */,
+				A882C4B41C908FCF00CB1439 /* UIBarButtonItem+LJExtension.m in Sources */,
 				A882C4AA1C9080D800CB1439 /* LJMeViewController.m in Sources */,
 				A882C49E1C907BD400CB1439 /* LJTabBarViewController.m in Sources */,
 				A882C46B1C907A1A00CB1439 /* main.m in Sources */,
@@ -427,6 +435,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PREFIX_HEADER = "百思静/PrefixHeader.pch";
 				INFOPLIST_FILE = "百思静/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "LL.---";
@@ -439,6 +448,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PREFIX_HEADER = "百思静/PrefixHeader.pch";
 				INFOPLIST_FILE = "百思静/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "LL.---";

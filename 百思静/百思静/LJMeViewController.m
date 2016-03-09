@@ -17,22 +17,25 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.navigationItem.title = @"我的";
+    
+    UIBarButtonItem *item1 = [UIBarButtonItem itemWithImage:@"mine-setting-icon"
+                         seleImage:@"mine-setting-icon-click"
+                            target:self
+                            action:@selector(settingClick)];
+    UIBarButtonItem *item2 = [UIBarButtonItem itemWithImage:@"mine-moon-icon" seleImage:@"mine-moon-icon-click" target:self action:@selector(moonClick)];
+    self.navigationItem.rightBarButtonItems = @[
+                                               item1,
+                                               item2
+                                               ];
+    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)settingClick {
+    LJLogFunc;
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)moonClick {
+    LJLogFunc;
 }
-*/
-
 @end
