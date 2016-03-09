@@ -11,6 +11,7 @@
 #import "LJFriendTrendsViewController.h"
 #import "LJNewViewController.h"
 #import "LJMeViewController.h"
+#import "LJTabBar.h"
 
 @interface LJTabBarViewController ()
 
@@ -20,8 +21,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-
     
     NSMutableDictionary *attrs = [NSMutableDictionary dictionary];
     attrs[NSForegroundColorAttributeName] = [UIColor grayColor];
@@ -33,7 +32,6 @@
     UITabBarItem *item = [UITabBarItem appearance];
     [item setTitleTextAttributes:attrs forState:UIControlStateNormal];
     [item setTitleTextAttributes:attrsSele forState:UIControlStateSelected];
-
     
     [self addChildViewController:[[LJEssenceViewController alloc]init] title:@"精华" image:@"tabBar_essence_icon" seleImage:@"tabBar_essence_click_icon"];
     
@@ -42,6 +40,8 @@
     [self addChildViewController:[[LJFriendTrendsViewController alloc]init] title:@"关注" image:@"tabBar_friendTrends_icon" seleImage:@"tabBar_friendTrends_click_icon"];
     
     [self addChildViewController:[[LJMeViewController alloc] init] title:@"我的" image:@"tabBar_me_icon" seleImage:@"tabBar_me_click_icon"];
+
+    [self setValue:[[LJTabBar alloc] init] forKey:@"tabBar"];
     
 }
 
