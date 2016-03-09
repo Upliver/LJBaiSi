@@ -1,13 +1,14 @@
 //
 //  AppDelegate.m
-//  百思静
+//  百思不得静
 //
 //  Created by 李学林 on 16/3/9.
 //  Copyright © 2016年 Upriver. All rights reserved.
 //
 
 #import "AppDelegate.h"
-#import "LJTabBarViewController.h"
+#import "LJTabBarController.h"
+
 
 @interface AppDelegate ()
 
@@ -21,12 +22,10 @@
     self.window = [[UIWindow alloc] init];
     self.window.frame = [UIScreen mainScreen].bounds;
     
-    LJTabBarViewController *vc = [[LJTabBarViewController alloc] init];
+    LJTabBarController *tabBarController = [[LJTabBarController alloc] init];
+    self.window.rootViewController = tabBarController;
     
-    
-    self.window.rootViewController = vc;    
     [self.window makeKeyAndVisible];
-    
     return YES;
 }
 

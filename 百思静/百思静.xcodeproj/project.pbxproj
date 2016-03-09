@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A882C46B1C907A1A00CB1439 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A882C46A1C907A1A00CB1439 /* main.m */; };
-		A882C46E1C907A1A00CB1439 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A882C46D1C907A1A00CB1439 /* AppDelegate.m */; };
 		A882C4761C907A1A00CB1439 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A882C4751C907A1A00CB1439 /* Assets.xcassets */; };
 		A882C4841C907A1A00CB1439 /* ___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A882C4831C907A1A00CB1439 /* ___Tests.m */; };
 		A882C48F1C907A1A00CB1439 /* ___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A882C48E1C907A1A00CB1439 /* ___UITests.m */; };
-		A882C49E1C907BD400CB1439 /* LJTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A882C49D1C907BD400CB1439 /* LJTabBarViewController.m */; };
-		A882C4A11C90804500CB1439 /* LJEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A882C4A01C90804500CB1439 /* LJEssenceViewController.m */; };
-		A882C4A41C90805200CB1439 /* LJNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A882C4A31C90805200CB1439 /* LJNewViewController.m */; };
-		A882C4A71C90809700CB1439 /* LJFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A882C4A61C90809700CB1439 /* LJFriendTrendsViewController.m */; };
-		A882C4AA1C9080D800CB1439 /* LJMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A882C4A91C9080D800CB1439 /* LJMeViewController.m */; };
-		A882C4AD1C9088AA00CB1439 /* LJTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A882C4AC1C9088AA00CB1439 /* LJTabBar.m */; };
-		A882C4B01C908A4800CB1439 /* UIView+LJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A882C4AF1C908A4800CB1439 /* UIView+LJExtension.m */; };
-		A882C4B41C908FCF00CB1439 /* UIBarButtonItem+LJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A882C4B31C908FCF00CB1439 /* UIBarButtonItem+LJExtension.m */; };
+		A882C4DE1C90987000CB1439 /* LJEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A882C4B91C90987000CB1439 /* LJEssenceViewController.m */; };
+		A882C4DF1C90987000CB1439 /* LJFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A882C4BF1C90987000CB1439 /* LJFriendTrendsViewController.m */; };
+		A882C4E01C90987000CB1439 /* LJMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A882C4C51C90987000CB1439 /* LJMeViewController.m */; };
+		A882C4E11C90987000CB1439 /* LJNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A882C4CB1C90987000CB1439 /* LJNewViewController.m */; };
+		A882C4E21C90987000CB1439 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A882C4D01C90987000CB1439 /* AppDelegate.m */; };
+		A882C4E31C90987000CB1439 /* UIBarButtonItem+LJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A882C4D31C90987000CB1439 /* UIBarButtonItem+LJExtension.m */; };
+		A882C4E41C90987000CB1439 /* UIView+LJExtensionFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = A882C4D51C90987000CB1439 /* UIView+LJExtensionFrame.m */; };
+		A882C4E51C90987000CB1439 /* LJTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A882C4D81C90987000CB1439 /* LJTabBarController.m */; };
+		A882C4E61C90987000CB1439 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A882C4D91C90987000CB1439 /* main.m */; };
+		A882C4E71C90987000CB1439 /* LJTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A882C4DD1C90987000CB1439 /* LJTabBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,9 +41,6 @@
 
 /* Begin PBXFileReference section */
 		A882C4661C907A1A00CB1439 /* 百思静.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百思静.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A882C46A1C907A1A00CB1439 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A882C46C1C907A1A00CB1439 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		A882C46D1C907A1A00CB1439 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A882C4751C907A1A00CB1439 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A882C47A1C907A1A00CB1439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A882C47F1C907A1A00CB1439 /* 百思静Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "百思静Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,23 +49,26 @@
 		A882C48A1C907A1A00CB1439 /* 百思静UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "百思静UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A882C48E1C907A1A00CB1439 /* ___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___UITests.m"; sourceTree = "<group>"; };
 		A882C4901C907A1A00CB1439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A882C49C1C907BD400CB1439 /* LJTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJTabBarViewController.h; sourceTree = "<group>"; };
-		A882C49D1C907BD400CB1439 /* LJTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJTabBarViewController.m; sourceTree = "<group>"; };
-		A882C49F1C90804500CB1439 /* LJEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJEssenceViewController.h; sourceTree = "<group>"; };
-		A882C4A01C90804500CB1439 /* LJEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJEssenceViewController.m; sourceTree = "<group>"; };
-		A882C4A21C90805200CB1439 /* LJNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJNewViewController.h; sourceTree = "<group>"; };
-		A882C4A31C90805200CB1439 /* LJNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJNewViewController.m; sourceTree = "<group>"; };
-		A882C4A51C90809700CB1439 /* LJFriendTrendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJFriendTrendsViewController.h; sourceTree = "<group>"; };
-		A882C4A61C90809700CB1439 /* LJFriendTrendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJFriendTrendsViewController.m; sourceTree = "<group>"; };
-		A882C4A81C9080D800CB1439 /* LJMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJMeViewController.h; sourceTree = "<group>"; };
-		A882C4A91C9080D800CB1439 /* LJMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJMeViewController.m; sourceTree = "<group>"; };
-		A882C4AB1C9088AA00CB1439 /* LJTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJTabBar.h; sourceTree = "<group>"; };
-		A882C4AC1C9088AA00CB1439 /* LJTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJTabBar.m; sourceTree = "<group>"; };
-		A882C4AE1C908A4800CB1439 /* UIView+LJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LJExtension.h"; sourceTree = "<group>"; };
-		A882C4AF1C908A4800CB1439 /* UIView+LJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LJExtension.m"; sourceTree = "<group>"; };
-		A882C4B11C908C5400CB1439 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		A882C4B21C908FCF00CB1439 /* UIBarButtonItem+LJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+LJExtension.h"; sourceTree = "<group>"; };
-		A882C4B31C908FCF00CB1439 /* UIBarButtonItem+LJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+LJExtension.m"; sourceTree = "<group>"; };
+		A882C4B81C90987000CB1439 /* LJEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJEssenceViewController.h; sourceTree = "<group>"; };
+		A882C4B91C90987000CB1439 /* LJEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJEssenceViewController.m; sourceTree = "<group>"; };
+		A882C4BE1C90987000CB1439 /* LJFriendTrendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJFriendTrendsViewController.h; sourceTree = "<group>"; };
+		A882C4BF1C90987000CB1439 /* LJFriendTrendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJFriendTrendsViewController.m; sourceTree = "<group>"; };
+		A882C4C41C90987000CB1439 /* LJMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJMeViewController.h; sourceTree = "<group>"; };
+		A882C4C51C90987000CB1439 /* LJMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJMeViewController.m; sourceTree = "<group>"; };
+		A882C4CA1C90987000CB1439 /* LJNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJNewViewController.h; sourceTree = "<group>"; };
+		A882C4CB1C90987000CB1439 /* LJNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJNewViewController.m; sourceTree = "<group>"; };
+		A882C4CF1C90987000CB1439 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A882C4D01C90987000CB1439 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A882C4D21C90987000CB1439 /* UIBarButtonItem+LJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+LJExtension.h"; sourceTree = "<group>"; };
+		A882C4D31C90987000CB1439 /* UIBarButtonItem+LJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+LJExtension.m"; sourceTree = "<group>"; };
+		A882C4D41C90987000CB1439 /* UIView+LJExtensionFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LJExtensionFrame.h"; sourceTree = "<group>"; };
+		A882C4D51C90987000CB1439 /* UIView+LJExtensionFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LJExtensionFrame.m"; sourceTree = "<group>"; };
+		A882C4D71C90987000CB1439 /* LJTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJTabBarController.h; sourceTree = "<group>"; };
+		A882C4D81C90987000CB1439 /* LJTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJTabBarController.m; sourceTree = "<group>"; };
+		A882C4D91C90987000CB1439 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A882C4DA1C90987000CB1439 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A882C4DC1C90987000CB1439 /* LJTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJTabBar.h; sourceTree = "<group>"; };
+		A882C4DD1C90987000CB1439 /* LJTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJTabBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,25 +119,7 @@
 		A882C4681C907A1A00CB1439 /* 百思静 */ = {
 			isa = PBXGroup;
 			children = (
-				A882C46C1C907A1A00CB1439 /* AppDelegate.h */,
-				A882C46D1C907A1A00CB1439 /* AppDelegate.m */,
-				A882C49C1C907BD400CB1439 /* LJTabBarViewController.h */,
-				A882C49D1C907BD400CB1439 /* LJTabBarViewController.m */,
-				A882C4AB1C9088AA00CB1439 /* LJTabBar.h */,
-				A882C4AC1C9088AA00CB1439 /* LJTabBar.m */,
-				A882C49F1C90804500CB1439 /* LJEssenceViewController.h */,
-				A882C4A01C90804500CB1439 /* LJEssenceViewController.m */,
-				A882C4A21C90805200CB1439 /* LJNewViewController.h */,
-				A882C4A31C90805200CB1439 /* LJNewViewController.m */,
-				A882C4A51C90809700CB1439 /* LJFriendTrendsViewController.h */,
-				A882C4A61C90809700CB1439 /* LJFriendTrendsViewController.m */,
-				A882C4A81C9080D800CB1439 /* LJMeViewController.h */,
-				A882C4A91C9080D800CB1439 /* LJMeViewController.m */,
-				A882C4AE1C908A4800CB1439 /* UIView+LJExtension.h */,
-				A882C4AF1C908A4800CB1439 /* UIView+LJExtension.m */,
-				A882C4B21C908FCF00CB1439 /* UIBarButtonItem+LJExtension.h */,
-				A882C4B31C908FCF00CB1439 /* UIBarButtonItem+LJExtension.m */,
-				A882C4B11C908C5400CB1439 /* PrefixHeader.pch */,
+				A882C4B51C90987000CB1439 /* Classes */,
 				A882C4691C907A1A00CB1439 /* Supporting Files */,
 			);
 			path = "百思静";
@@ -148,7 +130,6 @@
 			children = (
 				A882C4751C907A1A00CB1439 /* Assets.xcassets */,
 				A882C47A1C907A1A00CB1439 /* Info.plist */,
-				A882C46A1C907A1A00CB1439 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -169,6 +150,193 @@
 				A882C4901C907A1A00CB1439 /* Info.plist */,
 			);
 			path = "百思静UITests";
+			sourceTree = "<group>";
+		};
+		A882C4B51C90987000CB1439 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A882C4B61C90987000CB1439 /* Essence-精华 */,
+				A882C4BC1C90987000CB1439 /* FriendTrends-关注 */,
+				A882C4C81C90987000CB1439 /* New-新帖 */,
+				A882C4C21C90987000CB1439 /* Me-我的 */,
+				A882C4CE1C90987000CB1439 /* Other-其他 */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A882C4B61C90987000CB1439 /* Essence-精华 */ = {
+			isa = PBXGroup;
+			children = (
+				A882C4B71C90987000CB1439 /* Controller */,
+				A882C4BA1C90987000CB1439 /* Model */,
+				A882C4BB1C90987000CB1439 /* View */,
+			);
+			path = "Essence-精华";
+			sourceTree = "<group>";
+		};
+		A882C4B71C90987000CB1439 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A882C4B81C90987000CB1439 /* LJEssenceViewController.h */,
+				A882C4B91C90987000CB1439 /* LJEssenceViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A882C4BA1C90987000CB1439 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A882C4BB1C90987000CB1439 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A882C4BC1C90987000CB1439 /* FriendTrends-关注 */ = {
+			isa = PBXGroup;
+			children = (
+				A882C4BD1C90987000CB1439 /* Controller */,
+				A882C4C01C90987000CB1439 /* Model */,
+				A882C4C11C90987000CB1439 /* View */,
+			);
+			path = "FriendTrends-关注";
+			sourceTree = "<group>";
+		};
+		A882C4BD1C90987000CB1439 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A882C4BE1C90987000CB1439 /* LJFriendTrendsViewController.h */,
+				A882C4BF1C90987000CB1439 /* LJFriendTrendsViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A882C4C01C90987000CB1439 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A882C4C11C90987000CB1439 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A882C4C21C90987000CB1439 /* Me-我的 */ = {
+			isa = PBXGroup;
+			children = (
+				A882C4C31C90987000CB1439 /* Controller */,
+				A882C4C61C90987000CB1439 /* Model */,
+				A882C4C71C90987000CB1439 /* View */,
+			);
+			path = "Me-我的";
+			sourceTree = "<group>";
+		};
+		A882C4C31C90987000CB1439 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A882C4C41C90987000CB1439 /* LJMeViewController.h */,
+				A882C4C51C90987000CB1439 /* LJMeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A882C4C61C90987000CB1439 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A882C4C71C90987000CB1439 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A882C4C81C90987000CB1439 /* New-新帖 */ = {
+			isa = PBXGroup;
+			children = (
+				A882C4C91C90987000CB1439 /* Controller */,
+				A882C4CC1C90987000CB1439 /* Model */,
+				A882C4CD1C90987000CB1439 /* View */,
+			);
+			path = "New-新帖";
+			sourceTree = "<group>";
+		};
+		A882C4C91C90987000CB1439 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A882C4CA1C90987000CB1439 /* LJNewViewController.h */,
+				A882C4CB1C90987000CB1439 /* LJNewViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A882C4CC1C90987000CB1439 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A882C4CD1C90987000CB1439 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A882C4CE1C90987000CB1439 /* Other-其他 */ = {
+			isa = PBXGroup;
+			children = (
+				A882C4CF1C90987000CB1439 /* AppDelegate.h */,
+				A882C4D01C90987000CB1439 /* AppDelegate.m */,
+				A882C4D11C90987000CB1439 /* Catagory */,
+				A882C4D61C90987000CB1439 /* Controller */,
+				A882C4D91C90987000CB1439 /* main.m */,
+				A882C4DA1C90987000CB1439 /* PrefixHeader.pch */,
+				A882C4DB1C90987000CB1439 /* View */,
+			);
+			path = "Other-其他";
+			sourceTree = "<group>";
+		};
+		A882C4D11C90987000CB1439 /* Catagory */ = {
+			isa = PBXGroup;
+			children = (
+				A882C4D21C90987000CB1439 /* UIBarButtonItem+LJExtension.h */,
+				A882C4D31C90987000CB1439 /* UIBarButtonItem+LJExtension.m */,
+				A882C4D41C90987000CB1439 /* UIView+LJExtensionFrame.h */,
+				A882C4D51C90987000CB1439 /* UIView+LJExtensionFrame.m */,
+			);
+			path = Catagory;
+			sourceTree = "<group>";
+		};
+		A882C4D61C90987000CB1439 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A882C4D71C90987000CB1439 /* LJTabBarController.h */,
+				A882C4D81C90987000CB1439 /* LJTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A882C4DB1C90987000CB1439 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A882C4DC1C90987000CB1439 /* LJTabBar.h */,
+				A882C4DD1C90987000CB1439 /* LJTabBar.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,16 +471,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A882C4A71C90809700CB1439 /* LJFriendTrendsViewController.m in Sources */,
-				A882C46E1C907A1A00CB1439 /* AppDelegate.m in Sources */,
-				A882C4A41C90805200CB1439 /* LJNewViewController.m in Sources */,
-				A882C4B01C908A4800CB1439 /* UIView+LJExtension.m in Sources */,
-				A882C4B41C908FCF00CB1439 /* UIBarButtonItem+LJExtension.m in Sources */,
-				A882C4AA1C9080D800CB1439 /* LJMeViewController.m in Sources */,
-				A882C49E1C907BD400CB1439 /* LJTabBarViewController.m in Sources */,
-				A882C46B1C907A1A00CB1439 /* main.m in Sources */,
-				A882C4A11C90804500CB1439 /* LJEssenceViewController.m in Sources */,
-				A882C4AD1C9088AA00CB1439 /* LJTabBar.m in Sources */,
+				A882C4DF1C90987000CB1439 /* LJFriendTrendsViewController.m in Sources */,
+				A882C4DE1C90987000CB1439 /* LJEssenceViewController.m in Sources */,
+				A882C4E31C90987000CB1439 /* UIBarButtonItem+LJExtension.m in Sources */,
+				A882C4E71C90987000CB1439 /* LJTabBar.m in Sources */,
+				A882C4E01C90987000CB1439 /* LJMeViewController.m in Sources */,
+				A882C4E41C90987000CB1439 /* UIView+LJExtensionFrame.m in Sources */,
+				A882C4E51C90987000CB1439 /* LJTabBarController.m in Sources */,
+				A882C4E11C90987000CB1439 /* LJNewViewController.m in Sources */,
+				A882C4E61C90987000CB1439 /* main.m in Sources */,
+				A882C4E21C90987000CB1439 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,7 +603,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
-				GCC_PREFIX_HEADER = "百思静/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "百思静/Classes/Other-其他/PrefixHeader.pch";
 				INFOPLIST_FILE = "百思静/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "LL.---";
@@ -448,7 +616,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
-				GCC_PREFIX_HEADER = "百思静/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "百思静/Classes/Other-其他/PrefixHeader.pch";
 				INFOPLIST_FILE = "百思静/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "LL.---";
@@ -523,6 +691,7 @@
 				A882C4951C907A1A00CB1439 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A882C4961C907A1A00CB1439 /* Build configuration list for PBXNativeTarget "百思静Tests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +700,7 @@
 				A882C4981C907A1A00CB1439 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A882C4991C907A1A00CB1439 /* Build configuration list for PBXNativeTarget "百思静UITests" */ = {
 			isa = XCConfigurationList;
@@ -539,6 +709,7 @@
 				A882C49B1C907A1A00CB1439 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

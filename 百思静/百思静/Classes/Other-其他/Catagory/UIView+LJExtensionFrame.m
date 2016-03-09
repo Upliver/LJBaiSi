@@ -1,0 +1,74 @@
+
+//
+//  UIView+LJExtensionFrame.m
+//  百思不得静
+//
+//  Created by 李学林 on 16/3/9.
+//  Copyright © 2016年 Upriver. All rights reserved.
+//
+
+#import "UIView+LJExtensionFrame.h"
+
+@implementation UIView (LJExtensionFrame)
+
+// 在分类中property只会生成方法的声明,不能生成实现和带下划线的成员变量
+
+- (void)setWidth:(CGFloat)width
+{
+    CGRect frame  = self.frame;
+    frame.size.width = width;
+    self.frame = frame;
+}
+- (void)setHeight:(CGFloat)height
+{
+    CGRect frame  = self.frame;
+    frame.size.height = height;
+    self.frame = frame;
+}
+
+
+- (void)setX:(CGFloat)x
+{
+    CGRect frame  = self.frame;
+    frame.origin.x = x;
+    self.frame = frame;
+}
+
+- (void)setY:(CGFloat)y
+{
+    CGRect frame  = self.frame;
+    frame.origin.y = y;
+    self.frame = frame;
+}
+
+- (CGFloat)width
+{
+    return self.frame.size.width;
+}
+
+- (CGFloat)height
+{
+    return self.frame.size.height;
+}
+
+- (CGFloat)x
+{
+    return self.frame.origin.x;
+}
+
+- (CGFloat)y
+{
+    return self.frame.origin.y;
+}
+
+- (void)setSize:(CGSize)size
+{
+    CGRect frame  = self.frame;
+    frame.size = size;
+    self.frame = frame;
+}
+- (CGSize)size
+{
+    return self.frame.size;
+}
+@end
