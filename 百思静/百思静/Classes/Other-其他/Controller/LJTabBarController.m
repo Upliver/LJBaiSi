@@ -12,6 +12,7 @@
 #import "LJFriendTrendsViewController.h"
 #import "LJMeViewController.h"
 #import "LJTabBar.h"
+#import "LJNavgationController.h"
 
 @interface LJTabBarController ()
 
@@ -19,9 +20,8 @@
 
 @implementation LJTabBarController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    
++ (void)initialize
+{
     NSMutableDictionary *attrs = [NSMutableDictionary dictionary];
     attrs[NSForegroundColorAttributeName] = [UIColor grayColor];
     
@@ -33,17 +33,19 @@
     UITabBarItem *item = [UITabBarItem appearance];
     [item setTitleTextAttributes:attrs forState:UIControlStateNormal];
     [item setTitleTextAttributes:attrsSele forState:UIControlStateSelected];
+
+}
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    
     
     [self addChildViewController:[[LJEssenceViewController alloc]init] Title:@"精华" image:@"tabBar_essence_icon" seleImage:@"tabBar_essence_click_icon"];
     [self addChildViewController:[[LJNewViewController alloc]init] Title:@"新帖" image:@"tabBar_new_icon" seleImage:@"tabBar_new_click_icon"];
     [self addChildViewController:[[LJFriendTrendsViewController alloc] init] Title:@"关注" image:@"tabBar_friendTrends_icon" seleImage:@"tabBar_friendTrends_click_icon"];
     [self addChildViewController:[[LJMeViewController alloc] init] Title:@"我" image:@"tabBar_me_icon" seleImage:@"tabBar_me_click_icon"];
-    ;
-    
-
-    
+    ;    
     [self setValue:[[LJTabBar alloc] init] forKey:@"tabBar"];
-
 }
 
 
@@ -60,10 +62,9 @@
     vc.tabBarItem.title = title;
     vc.tabBarItem.image = [UIImage imageNamed:image];
     vc.tabBarItem.selectedImage = [UIImage imageNamed:seleImage];
-    vc.view.backgroundColor = [UIColor colorWithRed:arc4random_uniform(100)/100.0 green:arc4random_uniform(100)/100.0 blue:arc4random_uniform(100)/100.0 alpha:1];
     
     // 包装一层导航控制器
-    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+    LJNavgationController *nav = [[LJNavgationController alloc] initWithRootViewController:vc];
     
     [self addChildViewController:nav];
 }

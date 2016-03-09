@@ -18,6 +18,7 @@
     [super viewDidLoad];
     
     self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithImage:@"MainTagSubIcon" highlightImage:@"MainTagSubIconClick" target:self action:@selector(tagClick)];
+    self.view.backgroundColor = LJBJColor;
 }
 
 - (void)tagClick

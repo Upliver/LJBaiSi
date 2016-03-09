@@ -29,6 +29,8 @@
                                                 settingItem,
                                                 moonItem
                                                 ];
+    
+    self.view.backgroundColor = LJBJColor;
 }
 
 - (void)settingClick

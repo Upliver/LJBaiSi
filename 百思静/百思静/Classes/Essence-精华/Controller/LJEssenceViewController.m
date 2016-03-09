@@ -18,10 +18,17 @@
     [super viewDidLoad];
     
     self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithImage:@"MainTagSubIcon" highlightImage:@"MainTagSubIconClick" target:self action:@selector(tagClick)];
+    
+    self.view.backgroundColor = LJBJColor;
 }
 
 - (void)tagClick
 {
     LJLog(@"%s",__func__);
+    UIViewController *vc = [[UIViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
+
+
+
 @end
