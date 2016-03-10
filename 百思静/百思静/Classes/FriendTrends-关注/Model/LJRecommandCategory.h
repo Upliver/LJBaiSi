@@ -10,4 +10,21 @@
 
 @interface LJRecommandCategory : NSObject
 
+@property(nonatomic, copy) NSString *name;
+@property(nonatomic, assign) NSInteger id;
+@property(nonatomic, assign) NSInteger count;
+
+/**
+ *  存储每一类别对应的数据
+ */
+@property(nonatomic, strong) NSMutableArray *users;
+/**
+ *  总数
+ */
+@property(nonatomic, assign) NSInteger total;
+/**
+ *  当前页
+ */
+@property(nonatomic, assign) NSInteger currentPage;
+
 @end

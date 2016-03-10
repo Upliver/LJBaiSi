@@ -27,6 +27,11 @@
 		A882C4EA1C909E9400CB1439 /* LJNavgationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A882C4E91C909E9400CB1439 /* LJNavgationController.m */; };
 		A882C4EC1C90A9DE00CB1439 /* LJFriendTrendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A882C4EB1C90A9DE00CB1439 /* LJFriendTrendsViewController.xib */; };
 		A8FC943B1C91562D00366652 /* LJRecommandCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = A8FC943A1C91562D00366652 /* LJRecommandCategory.m */; };
+		A8FC943F1C91597900366652 /* LJCatategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A8FC943D1C91597900366652 /* LJCatategoryCell.m */; };
+		A8FC94401C91597900366652 /* LJCatategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8FC943E1C91597900366652 /* LJCatategoryCell.xib */; };
+		A8FC94441C917CA900366652 /* LJRecommandUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A8FC94421C917CA900366652 /* LJRecommandUserCell.m */; };
+		A8FC94451C917CA900366652 /* LJRecommandUserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8FC94431C917CA900366652 /* LJRecommandUserCell.xib */; };
+		A8FC94481C91806800366652 /* LJRecommandUser.m in Sources */ = {isa = PBXBuildFile; fileRef = A8FC94471C91806800366652 /* LJRecommandUser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +92,14 @@
 		A882C4EB1C90A9DE00CB1439 /* LJFriendTrendsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LJFriendTrendsViewController.xib; sourceTree = "<group>"; };
 		A8FC94391C91562D00366652 /* LJRecommandCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJRecommandCategory.h; sourceTree = "<group>"; };
 		A8FC943A1C91562D00366652 /* LJRecommandCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJRecommandCategory.m; sourceTree = "<group>"; };
+		A8FC943C1C91597900366652 /* LJCatategoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJCatategoryCell.h; sourceTree = "<group>"; };
+		A8FC943D1C91597900366652 /* LJCatategoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJCatategoryCell.m; sourceTree = "<group>"; };
+		A8FC943E1C91597900366652 /* LJCatategoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LJCatategoryCell.xib; sourceTree = "<group>"; };
+		A8FC94411C917CA900366652 /* LJRecommandUserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJRecommandUserCell.h; sourceTree = "<group>"; };
+		A8FC94421C917CA900366652 /* LJRecommandUserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJRecommandUserCell.m; sourceTree = "<group>"; };
+		A8FC94431C917CA900366652 /* LJRecommandUserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LJRecommandUserCell.xib; sourceTree = "<group>"; };
+		A8FC94461C91806800366652 /* LJRecommandUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJRecommandUser.h; sourceTree = "<group>"; };
+		A8FC94471C91806800366652 /* LJRecommandUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJRecommandUser.m; sourceTree = "<group>"; };
 		D9A7E259EDF3FED6866EAE0B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -264,6 +277,8 @@
 			children = (
 				A8FC94391C91562D00366652 /* LJRecommandCategory.h */,
 				A8FC943A1C91562D00366652 /* LJRecommandCategory.m */,
+				A8FC94461C91806800366652 /* LJRecommandUser.h */,
+				A8FC94471C91806800366652 /* LJRecommandUser.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -271,6 +286,12 @@
 		A882C4C11C90987000CB1439 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A8FC943C1C91597900366652 /* LJCatategoryCell.h */,
+				A8FC943D1C91597900366652 /* LJCatategoryCell.m */,
+				A8FC943E1C91597900366652 /* LJCatategoryCell.xib */,
+				A8FC94411C917CA900366652 /* LJRecommandUserCell.h */,
+				A8FC94421C917CA900366652 /* LJRecommandUserCell.m */,
+				A8FC94431C917CA900366652 /* LJRecommandUserCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -499,7 +520,9 @@
 			files = (
 				A882C4EC1C90A9DE00CB1439 /* LJFriendTrendsViewController.xib in Resources */,
 				A80D3FA01C90B14500B03DC2 /* LJRecommandViewController.xib in Resources */,
+				A8FC94401C91597900366652 /* LJCatategoryCell.xib in Resources */,
 				A882C4761C907A1A00CB1439 /* Assets.xcassets in Resources */,
+				A8FC94451C917CA900366652 /* LJRecommandUserCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -578,10 +601,13 @@
 				A882C4E71C90987000CB1439 /* LJTabBar.m in Sources */,
 				A882C4E01C90987000CB1439 /* LJMeViewController.m in Sources */,
 				A80D3F9F1C90B14500B03DC2 /* LJRecommandViewController.m in Sources */,
+				A8FC94481C91806800366652 /* LJRecommandUser.m in Sources */,
 				A8FC943B1C91562D00366652 /* LJRecommandCategory.m in Sources */,
+				A8FC943F1C91597900366652 /* LJCatategoryCell.m in Sources */,
 				A882C4EA1C909E9400CB1439 /* LJNavgationController.m in Sources */,
 				A882C4E41C90987000CB1439 /* UIView+LJExtensionFrame.m in Sources */,
 				A882C4E51C90987000CB1439 /* LJTabBarController.m in Sources */,
+				A8FC94441C917CA900366652 /* LJRecommandUserCell.m in Sources */,
 				A882C4E11C90987000CB1439 /* LJNewViewController.m in Sources */,
 				A880CDFC1C90B4C000BFA071 /* Foundation+Log.m in Sources */,
 				A882C4E61C90987000CB1439 /* main.m in Sources */,
