@@ -10,6 +10,10 @@
 		65D29477BDE76AF3C7E73BFB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9A7E259EDF3FED6866EAE0B /* libPods.a */; };
 		A80D3F9F1C90B14500B03DC2 /* LJRecommandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A80D3F9D1C90B14500B03DC2 /* LJRecommandViewController.m */; };
 		A80D3FA01C90B14500B03DC2 /* LJRecommandViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A80D3F9E1C90B14500B03DC2 /* LJRecommandViewController.xib */; };
+		A832B80E1C91E143000FF5BB /* LJRecommandTagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A832B80D1C91E143000FF5BB /* LJRecommandTagViewController.m */; };
+		A832B8111C91E3FA000FF5BB /* LJRecommandTag.m in Sources */ = {isa = PBXBuildFile; fileRef = A832B8101C91E3FA000FF5BB /* LJRecommandTag.m */; };
+		A832B8151C91E52D000FF5BB /* LJRecommandTagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A832B8131C91E52D000FF5BB /* LJRecommandTagCell.m */; };
+		A832B8161C91E52D000FF5BB /* LJRecommandTagCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A832B8141C91E52D000FF5BB /* LJRecommandTagCell.xib */; };
 		A880CDFC1C90B4C000BFA071 /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = A880CDFB1C90B4C000BFA071 /* Foundation+Log.m */; };
 		A882C4761C907A1A00CB1439 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A882C4751C907A1A00CB1439 /* Assets.xcassets */; };
 		A882C4841C907A1A00CB1439 /* ___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A882C4831C907A1A00CB1439 /* ___Tests.m */; };
@@ -57,6 +61,13 @@
 		A80D3F9C1C90B14500B03DC2 /* LJRecommandViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJRecommandViewController.h; sourceTree = "<group>"; };
 		A80D3F9D1C90B14500B03DC2 /* LJRecommandViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJRecommandViewController.m; sourceTree = "<group>"; };
 		A80D3F9E1C90B14500B03DC2 /* LJRecommandViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LJRecommandViewController.xib; sourceTree = "<group>"; };
+		A832B80C1C91E143000FF5BB /* LJRecommandTagViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJRecommandTagViewController.h; sourceTree = "<group>"; };
+		A832B80D1C91E143000FF5BB /* LJRecommandTagViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJRecommandTagViewController.m; sourceTree = "<group>"; };
+		A832B80F1C91E3FA000FF5BB /* LJRecommandTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJRecommandTag.h; sourceTree = "<group>"; };
+		A832B8101C91E3FA000FF5BB /* LJRecommandTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJRecommandTag.m; sourceTree = "<group>"; };
+		A832B8121C91E52D000FF5BB /* LJRecommandTagCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJRecommandTagCell.h; sourceTree = "<group>"; };
+		A832B8131C91E52D000FF5BB /* LJRecommandTagCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJRecommandTagCell.m; sourceTree = "<group>"; };
+		A832B8141C91E52D000FF5BB /* LJRecommandTagCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LJRecommandTagCell.xib; sourceTree = "<group>"; };
 		A880CDFB1C90B4C000BFA071 /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
 		A882C4661C907A1A00CB1439 /* 百思静.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百思静.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A882C4751C907A1A00CB1439 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -231,6 +242,8 @@
 			children = (
 				A882C4B81C90987000CB1439 /* LJEssenceViewController.h */,
 				A882C4B91C90987000CB1439 /* LJEssenceViewController.m */,
+				A832B80C1C91E143000FF5BB /* LJRecommandTagViewController.h */,
+				A832B80D1C91E143000FF5BB /* LJRecommandTagViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -238,6 +251,8 @@
 		A882C4BA1C90987000CB1439 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A832B80F1C91E3FA000FF5BB /* LJRecommandTag.h */,
+				A832B8101C91E3FA000FF5BB /* LJRecommandTag.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -245,6 +260,9 @@
 		A882C4BB1C90987000CB1439 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A832B8121C91E52D000FF5BB /* LJRecommandTagCell.h */,
+				A832B8131C91E52D000FF5BB /* LJRecommandTagCell.m */,
+				A832B8141C91E52D000FF5BB /* LJRecommandTagCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -523,6 +541,7 @@
 				A8FC94401C91597900366652 /* LJCatategoryCell.xib in Resources */,
 				A882C4761C907A1A00CB1439 /* Assets.xcassets in Resources */,
 				A8FC94451C917CA900366652 /* LJRecommandUserCell.xib in Resources */,
+				A832B8161C91E52D000FF5BB /* LJRecommandTagCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -595,12 +614,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A832B80E1C91E143000FF5BB /* LJRecommandTagViewController.m in Sources */,
 				A882C4DF1C90987000CB1439 /* LJFriendTrendsViewController.m in Sources */,
 				A882C4DE1C90987000CB1439 /* LJEssenceViewController.m in Sources */,
 				A882C4E31C90987000CB1439 /* UIBarButtonItem+LJExtension.m in Sources */,
 				A882C4E71C90987000CB1439 /* LJTabBar.m in Sources */,
 				A882C4E01C90987000CB1439 /* LJMeViewController.m in Sources */,
 				A80D3F9F1C90B14500B03DC2 /* LJRecommandViewController.m in Sources */,
+				A832B8151C91E52D000FF5BB /* LJRecommandTagCell.m in Sources */,
 				A8FC94481C91806800366652 /* LJRecommandUser.m in Sources */,
 				A8FC943B1C91562D00366652 /* LJRecommandCategory.m in Sources */,
 				A8FC943F1C91597900366652 /* LJCatategoryCell.m in Sources */,
@@ -612,6 +633,7 @@
 				A880CDFC1C90B4C000BFA071 /* Foundation+Log.m in Sources */,
 				A882C4E61C90987000CB1439 /* main.m in Sources */,
 				A882C4E21C90987000CB1439 /* AppDelegate.m in Sources */,
+				A832B8111C91E3FA000FF5BB /* LJRecommandTag.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

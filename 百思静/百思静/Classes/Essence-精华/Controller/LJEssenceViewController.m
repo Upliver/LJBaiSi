@@ -7,6 +7,7 @@
 //
 
 #import "LJEssenceViewController.h"
+#import "LJRecommandTagViewController.h"
 
 @interface LJEssenceViewController ()
 
@@ -24,8 +25,7 @@
 
 - (void)tagClick
 {
-    LJLog(@"%s",__func__);
-    UIViewController *vc = [[UIViewController alloc] init];
+    LJRecommandTagViewController *vc = [[LJRecommandTagViewController alloc] init];
     [self.navigationController pushViewController:vc animated:YES];
 }
 
