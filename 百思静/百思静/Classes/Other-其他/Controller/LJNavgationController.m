@@ -41,6 +41,7 @@
         backBtn.contentEdgeInsets = UIEdgeInsetsMake(0, -10, 0, 0);
         [backBtn addTarget:self action:@selector(back) forControlEvents:UIControlEventTouchUpInside];
         backBtn.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
+        
         viewController.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithCustomView:backBtn];
         viewController.hidesBottomBarWhenPushed = YES;
     }

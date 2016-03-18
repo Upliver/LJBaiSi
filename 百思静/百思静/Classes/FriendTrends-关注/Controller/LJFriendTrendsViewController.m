@@ -8,6 +8,7 @@
 
 #import "LJFriendTrendsViewController.h"
 #import "LJRecommandViewController.h"
+#import "LJRegistLoginController.h"
 
 @interface LJFriendTrendsViewController ()
 
@@ -31,6 +32,16 @@
     [self.navigationController pushViewController:recommandVc animated:YES];
 }
 
+- (IBAction)LJLoginClick:(UIButton *)sender {
+    
+    
+    LJRegistLoginController *loginVc = [[LJRegistLoginController alloc] init];
+    
+    [self presentViewController:loginVc animated:YES completion:nil];
+    
+    
+    
+}
 
 
 @end
