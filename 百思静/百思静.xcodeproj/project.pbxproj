@@ -13,6 +13,13 @@
 		A81165EA1C92B2B400E27084 /* LJRegistLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = A81165E81C92B2B400E27084 /* LJRegistLoginController.m */; };
 		A81165EB1C92B2B400E27084 /* LJRegistLoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A81165E91C92B2B400E27084 /* LJRegistLoginController.xib */; };
 		A81165EE1C92B84D00E27084 /* LJVerticalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A81165ED1C92B84D00E27084 /* LJVerticalButton.m */; };
+		A8233CA01CA40F72002032BF /* LJPushGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8233C9F1CA40F72002032BF /* LJPushGuideView.m */; };
+		A8233CA21CA40F7F002032BF /* LJPushGuideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8233CA11CA40F7F002032BF /* LJPushGuideView.xib */; };
+		A8257DBB1CA44A21008CDD0A /* LJAllViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8257DBA1CA44A21008CDD0A /* LJAllViewController.m */; };
+		A8257DBE1CA44A32008CDD0A /* LJVedioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8257DBD1CA44A32008CDD0A /* LJVedioViewController.m */; };
+		A8257DC11CA44A3E008CDD0A /* LJVoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8257DC01CA44A3E008CDD0A /* LJVoiceViewController.m */; };
+		A8257DC41CA44A4A008CDD0A /* LJWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8257DC31CA44A4A008CDD0A /* LJWordViewController.m */; };
+		A8257DC71CA44A68008CDD0A /* LJPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8257DC61CA44A68008CDD0A /* LJPictureViewController.m */; };
 		A832B80E1C91E143000FF5BB /* LJRecommandTagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A832B80D1C91E143000FF5BB /* LJRecommandTagViewController.m */; };
 		A832B8111C91E3FA000FF5BB /* LJRecommandTag.m in Sources */ = {isa = PBXBuildFile; fileRef = A832B8101C91E3FA000FF5BB /* LJRecommandTag.m */; };
 		A832B8151C91E52D000FF5BB /* LJRecommandTagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A832B8131C91E52D000FF5BB /* LJRecommandTagCell.m */; };
@@ -70,6 +77,19 @@
 		A81165E91C92B2B400E27084 /* LJRegistLoginController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LJRegistLoginController.xib; sourceTree = "<group>"; };
 		A81165EC1C92B84D00E27084 /* LJVerticalButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJVerticalButton.h; sourceTree = "<group>"; };
 		A81165ED1C92B84D00E27084 /* LJVerticalButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJVerticalButton.m; sourceTree = "<group>"; };
+		A8233C9E1CA40F72002032BF /* LJPushGuideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJPushGuideView.h; sourceTree = "<group>"; };
+		A8233C9F1CA40F72002032BF /* LJPushGuideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJPushGuideView.m; sourceTree = "<group>"; };
+		A8233CA11CA40F7F002032BF /* LJPushGuideView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LJPushGuideView.xib; sourceTree = "<group>"; };
+		A8257DB91CA44A21008CDD0A /* LJAllViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJAllViewController.h; sourceTree = "<group>"; };
+		A8257DBA1CA44A21008CDD0A /* LJAllViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJAllViewController.m; sourceTree = "<group>"; };
+		A8257DBC1CA44A32008CDD0A /* LJVedioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJVedioViewController.h; sourceTree = "<group>"; };
+		A8257DBD1CA44A32008CDD0A /* LJVedioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJVedioViewController.m; sourceTree = "<group>"; };
+		A8257DBF1CA44A3E008CDD0A /* LJVoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJVoiceViewController.h; sourceTree = "<group>"; };
+		A8257DC01CA44A3E008CDD0A /* LJVoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJVoiceViewController.m; sourceTree = "<group>"; };
+		A8257DC21CA44A4A008CDD0A /* LJWordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJWordViewController.h; sourceTree = "<group>"; };
+		A8257DC31CA44A4A008CDD0A /* LJWordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJWordViewController.m; sourceTree = "<group>"; };
+		A8257DC51CA44A68008CDD0A /* LJPictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJPictureViewController.h; sourceTree = "<group>"; };
+		A8257DC61CA44A68008CDD0A /* LJPictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJPictureViewController.m; sourceTree = "<group>"; };
 		A832B80C1C91E143000FF5BB /* LJRecommandTagViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJRecommandTagViewController.h; sourceTree = "<group>"; };
 		A832B80D1C91E143000FF5BB /* LJRecommandTagViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJRecommandTagViewController.m; sourceTree = "<group>"; };
 		A832B80F1C91E3FA000FF5BB /* LJRecommandTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJRecommandTag.h; sourceTree = "<group>"; };
@@ -255,6 +275,16 @@
 				A882C4B91C90987000CB1439 /* LJEssenceViewController.m */,
 				A832B80C1C91E143000FF5BB /* LJRecommandTagViewController.h */,
 				A832B80D1C91E143000FF5BB /* LJRecommandTagViewController.m */,
+				A8257DB91CA44A21008CDD0A /* LJAllViewController.h */,
+				A8257DBA1CA44A21008CDD0A /* LJAllViewController.m */,
+				A8257DBC1CA44A32008CDD0A /* LJVedioViewController.h */,
+				A8257DBD1CA44A32008CDD0A /* LJVedioViewController.m */,
+				A8257DBF1CA44A3E008CDD0A /* LJVoiceViewController.h */,
+				A8257DC01CA44A3E008CDD0A /* LJVoiceViewController.m */,
+				A8257DC21CA44A4A008CDD0A /* LJWordViewController.h */,
+				A8257DC31CA44A4A008CDD0A /* LJWordViewController.m */,
+				A8257DC51CA44A68008CDD0A /* LJPictureViewController.h */,
+				A8257DC61CA44A68008CDD0A /* LJPictureViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -440,6 +470,9 @@
 			children = (
 				A882C4DC1C90987000CB1439 /* LJTabBar.h */,
 				A882C4DD1C90987000CB1439 /* LJTabBar.m */,
+				A8233C9E1CA40F72002032BF /* LJPushGuideView.h */,
+				A8233C9F1CA40F72002032BF /* LJPushGuideView.m */,
+				A8233CA11CA40F7F002032BF /* LJPushGuideView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -557,6 +590,7 @@
 				A81165EB1C92B2B400E27084 /* LJRegistLoginController.xib in Resources */,
 				A882C4EC1C90A9DE00CB1439 /* LJFriendTrendsViewController.xib in Resources */,
 				A80D3FA01C90B14500B03DC2 /* LJRecommandViewController.xib in Resources */,
+				A8233CA21CA40F7F002032BF /* LJPushGuideView.xib in Resources */,
 				A8FC94401C91597900366652 /* LJCatategoryCell.xib in Resources */,
 				A882C4761C907A1A00CB1439 /* Assets.xcassets in Resources */,
 				A8FC94451C917CA900366652 /* LJRecommandUserCell.xib in Resources */,
@@ -636,6 +670,7 @@
 				A832B80E1C91E143000FF5BB /* LJRecommandTagViewController.m in Sources */,
 				A882C4DF1C90987000CB1439 /* LJFriendTrendsViewController.m in Sources */,
 				A8F2AA871C931EB5005666D2 /* LJTextField.m in Sources */,
+				A8233CA01CA40F72002032BF /* LJPushGuideView.m in Sources */,
 				A882C4DE1C90987000CB1439 /* LJEssenceViewController.m in Sources */,
 				A882C4E31C90987000CB1439 /* UIBarButtonItem+LJExtension.m in Sources */,
 				A882C4E71C90987000CB1439 /* LJTabBar.m in Sources */,
@@ -643,16 +678,21 @@
 				A80D3F9F1C90B14500B03DC2 /* LJRecommandViewController.m in Sources */,
 				A81165EE1C92B84D00E27084 /* LJVerticalButton.m in Sources */,
 				A832B8151C91E52D000FF5BB /* LJRecommandTagCell.m in Sources */,
+				A8257DC71CA44A68008CDD0A /* LJPictureViewController.m in Sources */,
 				A8FC94481C91806800366652 /* LJRecommandUser.m in Sources */,
+				A8257DC11CA44A3E008CDD0A /* LJVoiceViewController.m in Sources */,
+				A8257DBE1CA44A32008CDD0A /* LJVedioViewController.m in Sources */,
 				A8FC943B1C91562D00366652 /* LJRecommandCategory.m in Sources */,
 				A8FC943F1C91597900366652 /* LJCatategoryCell.m in Sources */,
 				A882C4EA1C909E9400CB1439 /* LJNavgationController.m in Sources */,
 				A882C4E41C90987000CB1439 /* UIView+LJExtensionFrame.m in Sources */,
+				A8257DC41CA44A4A008CDD0A /* LJWordViewController.m in Sources */,
 				A882C4E51C90987000CB1439 /* LJTabBarController.m in Sources */,
 				A8FC94441C917CA900366652 /* LJRecommandUserCell.m in Sources */,
 				A882C4E11C90987000CB1439 /* LJNewViewController.m in Sources */,
 				A880CDFC1C90B4C000BFA071 /* Foundation+Log.m in Sources */,
 				A882C4E61C90987000CB1439 /* main.m in Sources */,
+				A8257DBB1CA44A21008CDD0A /* LJAllViewController.m in Sources */,
 				A882C4E21C90987000CB1439 /* AppDelegate.m in Sources */,
 				A81165EA1C92B2B400E27084 /* LJRegistLoginController.m in Sources */,
 				A832B8111C91E3FA000FF5BB /* LJRecommandTag.m in Sources */,
