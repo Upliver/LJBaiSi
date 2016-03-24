@@ -15,11 +15,12 @@
 #import "LJWordViewController.h"
 #import "LJPictureViewController.h"
 
-@interface LJEssenceViewController ()
+@interface LJEssenceViewController ()<UIScrollViewDelegate>
 
 @property(nonatomic, weak) UIView *indicatorView;
 @property(nonatomic, weak) UIButton *selectedButton;
 @property(nonatomic, weak) UIView *titleView;
+@property(nonatomic, weak) UIScrollView *contentView;
 
 @end
 
@@ -28,14 +29,14 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    // 添加子控制器
+    [self setupChildVc];
     // 进行导航栏按钮的相关设置
     [self setupNav];
     // 设置顶部的titleView
     [self setupTitleView];
     // 底部的contentView
     [self setupContentView];
-    // 添加子控制器
-    [self setupChildVc];
 }
 
 
@@ -53,11 +54,11 @@
     LJVoiceViewController *voiceVc = [[LJVoiceViewController alloc] init];
     [self addChildViewController:voiceVc];
     
-    LJWordViewController *wordVc = [[LJWordViewController alloc] init];
-    [self addChildViewController:wordVc];
-    
     LJPictureViewController *pictureVc = [[LJPictureViewController alloc] init];
     [self addChildViewController:pictureVc];
+    
+    LJWordViewController *wordVc = [[LJWordViewController alloc] init];
+    [self addChildViewController:wordVc];
     
 }
 
@@ -69,16 +70,17 @@
     self.automaticallyAdjustsScrollViewInsets = NO;
     UIScrollView *contentView = [[UIScrollView alloc] init];
     
-    UISwitch *s = [[UISwitch alloc] init];
-    [contentView addSubview:s];
-    
     contentView.frame = self.view.bounds;
-    contentView.backgroundColor = [UIColor blueColor];
-    CGFloat top = CGRectGetMaxY(self.titleView.frame);
-    CGFloat botton = self.tabBarController.tabBar.height;
-    contentView.contentInset = UIEdgeInsetsMake(top, 0,botton , 0);
-    
+    contentView.delegate = self;
+    contentView.pagingEnabled = YES;
     [self.view insertSubview:contentView atIndex:0];
+    contentView.contentSize = CGSizeMake(self.childViewControllers.count * contentView.width, 0);
+    
+    self.contentView = contentView;
+    
+    // 添加第一个控制器view
+    [self scrollViewDidEndScrollingAnimation:contentView];
+    
 }
 /**
  *  设置标题view
@@ -98,7 +100,6 @@
     indicatorView.backgroundColor = [UIColor redColor];
     indicatorView.height = 2;
     indicatorView.y = titleView.height - indicatorView.height;
-    [titleView addSubview:indicatorView];
     
     self.indicatorView = indicatorView;
     
@@ -110,6 +111,7 @@
         button.height = titleView.height;
         button.width = buttonW;
         button.x = buttonW * i;
+        button.tag = i;
 //        button.backgroundColor = [UIColor colorWithRed:arc4random_uniform(255)/255.0 green:arc4random_uniform(255)/255.0  blue:arc4random_uniform(255)/255.0  alpha:1];
         [button setTitle:titles[i] forState:UIControlStateNormal];
         [button setTitleColor:[UIColor grayColor] forState:UIControlStateNormal];
@@ -125,10 +127,10 @@
             [button.titleLabel sizeToFit];
             self.indicatorView.width = button.titleLabel.width;
             self.indicatorView.centerX = button.centerX;
-            
         }
     }
     
+    [titleView addSubview:indicatorView];
 }
 
 - (void)titleClick:(UIButton *)button
@@ -141,8 +143,47 @@
         self.indicatorView.width = button.titleLabel.width;
         self.indicatorView.centerX = button.centerX;
     }];
+    
+//    // 滚动下面
+//    CGPoint offset = CGPointMake(_titleView.width * button.tag, 0);
+//    [self.contentView setContentOffset:offset animated:YES];
+    
+    CGPoint offset = self.contentView.contentOffset;
+    offset.x = button.tag * self.contentView.width;
+    [self.contentView setContentOffset:offset animated:YES];
 }
 
+#pragma mark UIScrollViewDelegate
+- (void)scrollViewDidEndScrollingAnimation:(UIScrollView *)scrollView
+{
+    // 添加自控制器的View
+    
+    // 取出当前索引
+    NSInteger index = scrollView.contentOffset.x / scrollView.width;
+    // 找到对应的控制器
+    UITableViewController *vc = self.childViewControllers[index];
+    vc.view.x = scrollView.contentOffset.x;
+    
+    // 设置内边距
+    CGFloat top = CGRectGetMaxY(self.titleView.frame);
+    CGFloat botton = self.tabBarController.tabBar.height;
+    [vc.tableView setContentInset:UIEdgeInsetsMake(top, 0, botton, 0)];
+    
+    [self.contentView addSubview:vc.view];
+    
+    
+}
+
+- (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView
+{
+    [self scrollViewDidEndScrollingAnimation:scrollView];
+    
+    // 点击titleview按钮
+    NSInteger index = self.contentView.contentOffset.x / self.contentView.width;
+    [self titleClick:self.titleView.subviews[index]];
+}
+
+#pragma mark 导航栏
 /**
  *  进行导航栏按钮的相关设置
  */
@@ -154,7 +195,7 @@
 }
 
 /**
- *  
+ *  导航栏按钮点击事件
  */
 - (void)tagClick
 {
